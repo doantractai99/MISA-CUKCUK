@@ -1,0 +1,161 @@
+.title .left {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 24px;
+    /* letter-spacing: 0px; */
+}
+
+.title .right {
+    float: right;
+    margin-right: 15px;
+    margin-top: -56px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    margin-left: 24px;
+}
+
+.content .left {
+    width: 160px;
+}
+
+.content .left .avatar {
+    height: 150px;
+    width: 150px;
+    background-image: url(../../content/img/default-avatar.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: #E5E5E5;
+    border-radius: 59%;
+    border: 1px solid rgb(204, 202, 202);
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    box-sizing: unset;
+}
+
+.content .left .text {
+    font-size: 14px;
+    text-align: center;
+}
+
+.right-box {
+    margin-left: 17px;
+}
+
+.title1 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.line {
+    width: 75px;
+    border: 2px solid #019160;
+    margin: 8px 0 8px 0;
+}
+
+.top .column1,
+.column2 {
+    font-size: 14px;
+}
+
+.top .column2 {
+    font-size: 14px;
+    margin-left: 11px;
+}
+
+input[type=text] {
+    width: 290px;
+    padding: 9px 16px;
+    margin: 4px 0 16px 0;
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+input[type=date] {
+    width: 290px;
+    height: 35px;
+    padding: 9px 16px;
+    margin: 4px 0 16px 0;
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+}
+
+select {
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    margin-top: 5px;
+    width: 290px;
+    height: 35px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.bottom .column3 {
+    font-size: 14px;
+    width: 273px;
+}
+
+.bottom .column4 {
+    font-size: 14px;
+    margin-left: 27px;
+}
+
+.footer {
+    height: 57.4px;
+    margin-top: 14px;
+    padding-top: 19px;
+    background-color: #E5E5E5;
+    font-size: 14px;
+}
+
+.footer .sub {
+    float: right;
+    display: flex;
+    /* flex-flow: center; */
+    color: #1d1919;
+    margin-right: 19px;
+    /* margin-top: 31px; */
+}
+
+.button.btn1 {
+    background: #E5E5E5;
+    color: #000;
+    margin-right: 15px;
+}
+
+.button.btn1 p {
+    margin-top: 0px;
+    margin-left: 22px;
+}
+
+.button.btn2:hover,
+.button.btn1:hover {
+    background-color: #01B075;
+}
+
+.button.btn2 {
+    background: #E5E5E5;
+    color: #000;
+}
+
+img {
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 9px;
+}
+
+.dvt {
+    position: absolute;
+    top: 622px;
+    left: 766px;
+}

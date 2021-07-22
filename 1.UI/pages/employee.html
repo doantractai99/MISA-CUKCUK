@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form employee</title>
+    <link rel="stylesheet" href="../css/form/body-form.css">
+    <link rel="stylesheet" href="../css/form/form-employee.css">
+</head>
+
+<body>
+    <div class="title">
+        <div class="left">THÔNG TIN NHÂN VIÊN</div>
+        <div class="right"><img src="../content/icon/x.svg" /></div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <div class="avatar"></div>
+            <div class="text">(Vui lòng chọn ảnh có định dạng .jpg, .jeg, .png, .gif.)</div>
+        </div>
+        <div class="right-box">
+            <div class="top">
+                <div class="title1">A.THÔNG TIN CHUNG:</div>
+                <div class="line"></div>
+                <form>
+                    <div class="column1">
+                        <label>Mã nhân viên (*)</label>
+                        <br>
+                        <input type="text" name="mã" placeholder="Nhập mã...">
+                        <br>
+                        <label>Ngày sinh</label>
+                        <br>
+                        <input type="date" name="date">
+                        <br>
+                        <label>Số CMTND/Căn cước (*)</label>
+                        <br>
+                        <input type="text" name="cmtnd" placeholder="Nhập CMTND...">
+                        <br>
+                        <label>Nơi cấp</label>
+                        <br>
+                        <input type="text" name="place" placeholder="Nhập nơi cấp...">
+                        <br>
+                        <label>Email (*)</label>
+                        <br>
+                        <input type="text" name="email" placeholder="Nhập email...">
+                    </div>
+                    <div class="column2">
+                        <label>Họ và tên (*)</label>
+                        <br>
+                        <input type="text" name="tên" placeholder="Nhập họ và tên...">
+                        <br>
+                        <label>Giới tính</label>
+                        <br>
+                        <select>
+                            <option value="Nam">Nam</option>
+                            <option value="Nữ">Nữ</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <br>
+                        <label>Ngày cấp</label>
+                        <br>
+                        <input type="date" name="ngayCap">
+                        <br><br><br><br><br>
+                        <p style="margin-top: 5px;margin-bottom: 2px;">Số điện thoại (*)</p>
+                        <input type="text" name="place" placeholder="Nhập SĐT...">
+                    </div>
+                </form>
+            </div>
+            <div class="bottom">
+                <div class="title1">B.THÔNG TIN CÔNG VIỆC:</div>
+                <div class="line"></div>
+                <form>
+                    <div class="column3">
+                        <label>Vị trí</label>
+                        <br>
+                        <select>
+                            <option value="Nam">Nam</option>
+                            <option value="Nữ">Nữ</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <br>
+                        <label>Mã số thuế cá nhân</label>
+                        <br>
+                        <input type="text" name="thuế" placeholder="Nhập mã số thuế...">
+                        <label>Ngày gia nhập công ty</label>
+                        <br>
+                        <input type="date" name="datecty">
+                    </div>
+                    <div class="column4">
+                        <label>Phòng ban</label>
+                        <br>
+                        <select>
+                            <option value="Phòng nhân sự">Phòng nhân sự</option>
+                            <option value="Phòng kế toán">Phòng kế toán</option>
+                            <option value="Phòng kĩ thuật">Phòng kĩ thuật</option>
+                        </select>
+                        <br>
+                        <label>Mức lương cơ bản</label>
+                        <br>
+                        <input class="money" type="text" name="luong" style="padding-right: 54px;">
+                        <span class="dvt"><i>(VNĐ)</i></span>
+                        <br>
+                        <label>Tình trạng công việc</label>
+                        <br>
+                        <select style="margin-top: 3px;">
+                            <option value="Đang làm việc">Đang làm việc</option>
+                            <option value="Đang thử việc">Đang thử việc</option>
+                            <option value="Đang nghỉ việc">Đang nghỉ việc</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="sub">
+            <div class="button btn1">
+                <p>Hủy</p>
+            </div>
+            <div class="button btn2"><img src="../content/icon/save-solid.svg" width="20px" height="20px">Lưu</div>
+        </div>
+    </div>
+</body>
+
+</html>
