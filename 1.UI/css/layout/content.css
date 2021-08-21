@@ -1,130 +1,91 @@
+@import url("../../css/base/button.css");
 .content {
     position: absolute;
-    top: 45px;
-    left: 201px;
-    margin-left: 12px;
+    top: 48px;
+    left: 224px;
+    display: block;
+    width: calc(100% - 225px);
+    height: calc(100vh -48px);
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
 }
 
-.content-head .left {
-    float: left;
-    font-family: MISAGoogleSans-Bold;
-    font-size: 15px;
-    margin-top: 5px;
+.content.expand {
+    width: calc(100% - 52px);
+    left: 52px;
+    transition: left 1s;
 }
 
-.content-head .button {
+.content .content-header {
     position: relative;
-    left: 835px;
-    margin-top: 18px;
-}
-
-.content-head .button .icon {
-    padding-top: 5.5px;
-    /* padding-left: 16px; */
-    padding-right: 8px;
-}
-
-.content-box {
-    display: flex;
-}
-
-.content-box .section.s1 {
-    margin-top: 0px;
-    margin-left: 81px;
-}
-
-.content-box .section.s2 {
-    margin-left: 20px;
-}
-
-.options-container.box2 {
-    position: absolute;
-    background: #fff;
-    color: #000;
-    max-height: none;
-    width: 184px;
-    top: 103px;
-    /* opacity: 1; */
-}
-
-.options-container.box3 {
-    position: absolute;
-    background: #fff;
-    color: #000;
-    max-height: none;
-    width: 184px;
-    top: 103px;
-    /* opacity: 1; */
-}
-
-.content-box .refresh {
-    width: 37px;
-    height: 30px;
-    text-align: center;
-    border: 1px solid #bbbbbb;
-    line-height: 40px;
-    box-sizing: unset;
-    margin-left: 428px;
-    border-radius: 4px;
-    margin-top: 5px;
-    cursor: pointer;
-}
-
-.content-box .refresh:hover {
-    border-color: #019160;
-}
-
-.content-table {
-    width: 99%;
-}
-
-.footer {
+    height: 60px;
+    width: 100%;
+    /* background-color: #ccc; */
     display: flex;
     justify-content: space-between;
-    height: 56px;
 }
 
-.footer .left {
-    margin-top: 20px;
+.content .content-header .title {
+    padding-top: 20px;
+    font-size: 20px;
+    width: auto;
+    font-weight: bold;
+    margin-left: 24px;
 }
 
-.footer .dot-next-prev {
-    margin-top: 1px;
-    align-items: center;
+.content-header .button {
+    height: 40px;
+    margin-top: 12px;
+    margin-right: 24px;
     display: flex;
     cursor: pointer;
 }
 
-.dot {
+.filter {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    padding-top: 4px;
+    justify-content: space-between;
+}
+
+.department,
+.position {
+    height: 40px;
+    width: 202px;
+    margin-left: 16px;
+}
+
+.department .dropdown,
+.position .dropdown {
+    width: 202px;
+    height: auto;
+}
+
+.department .select,
+.position .select {
+    width: calc(100% - 2px);
+}
+
+.filter .refresh {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    right: 0;
+    width: 50px;
+    height: 40px;
+    background-image: url("../../content/icon/refresh.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    margin-right: 24px;
     cursor: pointer;
-    height: 20px;
-    width: 20px;
-    margin: -2px 2px;
-    background-color: #E5E5E5;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    line-height: 20px;
-    box-sizing: unset;
-    transition: background-color 0.6s ease;
 }
 
-.active,
-.dot:hover {
-    background-color: #019160;
-}
-
-.footer .right {
-    margin-top: 20px;
-    margin-right: 16px;
-}
-
-.active,
-.dot:hover {
-    background-color: #019160;
-}
-
-.footer .right {
-    margin-top: 20px;
-    margin-right: 16px;
+.content #gridEmployee {
+    height: calc(100vh - 217px);
+    margin: 0px 24px 0px 24px;
+    line-height: 40px;
+    overflow: scroll;
+    width: calc(100% - 48px);
 }

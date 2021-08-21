@@ -5,78 +5,91 @@
 }
 
 .header .header-left {
-    display: flex;
-    align-items: center;
-    width: 200px;
-    border-right: 1px solid #ccc;
     height: 48px;
-    /* float: left; */
+    width: 225px;
+    align-items: center;
+    display: flex;
 }
 
 .header .header-left .toggle {
     width: 24px;
     height: 24px;
-    margin: 12px 10px 12px 16px;
-    background-image: url(../../content/img/toggle.png);
+    margin: 12px 18px 12px 16px;
+    background-image: url("../../content/img/toggle.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
     cursor: pointer;
 }
 
 .header .header-left .logo {
+    width: 100%;
     height: 24px;
-    width: 100px;
-    background-image: url(../../content/img/cukcuk-logo.png);
+    background-image: url("../../content/img/cukcuk-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: 0 center;
 }
 
 .header .header-right {
-    border-bottom: 1px solid #ccc;
-    width: 1165px;
+    height: 100%;
+    width: calc(100% - 218px);
+    border-left: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
-.header-right .dropdown {
-    border: none;
+.header-right .restaurant-selector {
+    height: 44px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.header-right .restaurant-selector .restaurant-name {
+    width: auto;
+    font-size: 15px;
     margin-left: 16px;
-    /* margin-top: 15px; */
-    width: 156px;
-    font-family: MISAGoogleSans-Bold;
-    float: left;
+    margin-right: 10px;
 }
 
-.selected.box1 {
-    border-color: #fff;
-    margin-bottom: 0px;
+.header-right .restaurant-selector .arrow {
+    height: 16px;
+    width: 16px;
+    background-image: url("../../content/icon/chevron-down.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 
-.header-right .avatar {
-    float: right;
-    margin-top: 9px;
-    margin-right: 16px;
+.header-right .user {
+    height: 100%;
+    width: auto;
+    justify-content: center;
+    display: flex;
 }
 
-.avatar .text::before {
-    /* content: url("../../content/icon/avatar-default.png"); */
-    background-image: url('../../content/icon/avatar-default.png');
-    background-size: 30px 30px;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    content: "";
-    position: absolute;
-    right: 174px;
-    cursor: pointer;
+.header-right .user .user-avatar {
+    width: 32px;
+    height: 32px;
+    margin: 6px 16px 8px 16px;
+    border-radius: 50%;
+    background-image: url("../../content/icon/avatar-default.png");
+    background-size: contain;
+    background-color: #ccc;
 }
 
-.avatar .text::after {
-    content: url("../../content/icon/option.png");
-    position: relative;
-    top: 6px;
-    cursor: pointer;
+.header-right .user .user-fullname {
+    width: auto;
+    line-height: 48px;
+    font-size: 13px;
 }
 
-.avatar .text span {
-    margin-right: 16px;
+.header-right .user .user-function {
+    height: 16px;
+    width: 16px;
+    margin: 16px 16px 16px 16px;
+    background-image: url("../../content/icon/option.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }

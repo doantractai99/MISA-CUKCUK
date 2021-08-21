@@ -1,23 +1,35 @@
 .button {
     height: 40px;
-    max-width: 122px;
+    display: inline-block;
     border-radius: 4px;
     color: #fff;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 24px;
     text-align: center;
-    box-sizing: unset;
     background-color: #019160;
-    cursor: pointer;
     line-height: 40px;
-    display: flex;
-    min-width: 75px;
+}
+
+button {
+    border: none;
 }
 
 .button:hover {
-    background-color: #2fbf8f;
+    background-color: #2fbebe;
 }
 
-button.button:active {
-    background-color: #01B075;
+button:active {
+    background-color: #01b075;
+}
+
+.button .button-icon {
+    margin: 12px 8px 8px 16px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../content/icon/add.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button .button-text {
+    white-space: nowrap;
 }
