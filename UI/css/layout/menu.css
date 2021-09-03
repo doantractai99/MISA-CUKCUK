@@ -1,0 +1,114 @@
+.menu {
+    padding-top: 14px;
+    height: calc(100vh - 48px);
+    width: 180px;
+    background-color: #38393d;
+    box-sizing: border-box;
+    float: left;
+}
+
+.menu .menu-item {
+    height: 42px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.menu .menu-item:hover {
+    background-color: #5d5d61;
+}
+
+.menu .menu-item-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 14px;
+    margin-right: 10px;
+}
+
+.menu .menu-item:active {
+    background-color: #019160 !important;
+    color: #fff;
+}
+
+.menu .menu-item-icon.dashboard {
+    background: url("../../content/img/Sprites.64af8f61.svg") -30px -1628px;
+}
+
+.menu .menu-item-icon.cash {
+    background: url("../../content/img/Sprites.64af8f61.svg") -73px -1628px;
+}
+
+.menu .menu-item-icon.bank {
+    background: url("../../content/img/Sprites.64af8f61.svg") -117px -1628px;
+}
+
+.menu .menu-item-icon.pu {
+    background: url("../../content/img/Sprites.64af8f61.svg") -161px -1628px;
+}
+
+.menu .menu-item-icon.sale {
+    background: url("../../content/img/Sprites.64af8f61.svg") -204px -1628px;
+}
+
+.menu .menu-item-icon.stock {
+    background: url("../../content/img/Sprites.64af8f61.svg") -291px -1628px;
+}
+
+.menu .menu-item-icon.tools {
+    background: url("../../content/img/Sprites.64af8f61.svg") -336px -1628px;
+}
+
+.menu .menu-item-icon.assets {
+    background: url("../../content/img/Sprites.64af8f61.svg") -378px -1630px;
+}
+
+.menu .menu-item-icon.tax {
+    background: url("../../content/img/Sprites.64af8f61.svg") -423px -1630px;
+}
+
+.menu .menu-item-icon.price {
+    background: url("../../content/img/Sprites.64af8f61.svg") -467px -1628px;
+}
+
+.menu .menu-item-icon.general {
+    background: url("../../content/img/Sprites.64af8f61.svg") -510px -1628px;
+}
+
+.menu .menu-item-icon.budget {
+    background: url("../../content/img/Sprites.64af8f61.svg") -378px -1659px;
+}
+
+.menu .menu-item-icon.report {
+    background: url("../../content/img/Sprites.64af8f61.svg") -547px -1628px;
+}
+
+.menu .menu-item-icon.finance {
+    background: url("../../content/img/Sprites.64af8f61.svg") -204px -1664px;
+}
+
+.menu-item .menu-item-text {
+    height: 20px;
+    width: calc(100% - 30px);
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.toggle-menu {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../content/icon/toggle.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border-radius: 4px 0px 0px 4px;
+    cursor: pointer;
+}
+
+.toggle-menu.rot-180 {
+    transform: scaleX(-1);
+    border-radius: 0px 4px 4px 0px;
+}

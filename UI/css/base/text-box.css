@@ -1,0 +1,37 @@
+.text-box-default{
+    font-size: 13px;
+    height: 32px;
+    color: inherit;
+    padding: 6px 10px;
+    border-radius: 2px;
+    border: 1px solid #babec5;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.text-box-default:focus{
+    border-color: #019160;
+}
+
+.textbox{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.textbox-with-icon{
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.textbox .textbox-icon{
+    position: absolute;
+    display: block;
+    z-index: 1;
+}
+
+.textbox input{
+    z-index: 0;
+    padding-right: 23px;
+}

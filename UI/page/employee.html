@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="toggle"></div>
+            <div class="logo"></div>
+        </div>
+        <div class="header-right">
+            <div class="company-selector">
+                <div class="pointer"></div>
+                <div class="company-name"><b>CÔNG TY TNHH SẢN XUẤT - THƯƠNG MẠI - DỊCH VỤ QUI PHÚC</b></div>
+                <div class="arrow"></div>
+            </div>
+            <div class="user">
+                <div class="icon-bell"></div>
+                <div class="user-avatar"></div>
+                <div class="user-fullname"><b>Đoàn Trắc Tài</b></div>
+                <div class="arrow"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="menu-item">
+            <div class="menu-item-icon dashboard"></div>
+            <div class="menu-item-text">Tổng quan</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon cash"></div>
+            <div class="menu-item-text">Tiền mặt</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon bank"></div>
+            <div class="menu-item-text">Tiền gửi</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon pu"></div>
+            <div class="menu-item-text">Mua hàng</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon sale"></div>
+            <div class="menu-item-text">Bán hàng</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon stock"></div>
+            <div class="menu-item-text">Kho</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon tools"></div>
+            <div class="menu-item-text">Công cụ dụng cụ</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon assets"></div>
+            <div class="menu-item-text">Tài sản cố định</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon tax"></div>
+            <div class="menu-item-text">Thuế</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon price"></div>
+            <div class="menu-item-text">Giá thành</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon general"></div>
+            <div class="menu-item-text">Tổng hợp</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon budget"></div>
+            <div class="menu-item-text">Ngân sách</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon report"></div>
+            <div class="menu-item-text">Báo cáo</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon finance"></div>
+            <div class="menu-item-text">Phân tích tài chính</div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="router-content">
+            <div class="header-list">
+                <div class="header-di">
+                    <div class="title-di"><b>Nhân viên</b></div>
+                </div>
+                <button class="button">Thêm mới nhân viên</button>
+            </div>
+
+            <div class="grid-content">
+                <div class="grid-list-data">
+                    <div class="grid-left"></div>
+                    <div class="grid-right">
+                        <div class="textbox">
+                            <div class="textbox-icon icon-search"></div>
+                            <input class="text-box-default textbox-with-icon width-search" type="text" id="searchfield" placeholder="Tìm theo mã, tên nhân viên" />
+                        </div>
+                        <div class="icon-refresh"></div>
+                        <div class="icon-excel"></div>
+                    </div>
+                </div>
+
+                <div id="gridEmployee">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th><input class="selected" type="checkbox" /></th>
+                                <th>MÃ NHÂN VIÊN</th>
+                                <th>TÊN NHÂN VIÊN</th>
+                                <th>GIỚI TÍNH</th>
+                                <th class="text-align-center">NGÀY SINH</th>
+                                <th>SỐ CMND</th>
+                                <th>CHỨC DANH</th>
+                                <th>TÊN ĐƠN VỊ</th>
+                                <th>SỐ TÀI KHOẢN</th>
+                                <th>TÊN NGÂN HÀNG</th>
+                                <th>CHI NHÁNH TK NGÂN HÀNG</th>
+                                <th>CHỨC NĂNG</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input class="selected" type="checkbox" /></td>
+                                <td>nv001</td>
+                                <td>Đoàn Trắc Tài</td>
+                                <td>nam</td>
+                                <td class="text-align-center">08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>
+                                    <div class="text-inline-description">
+                                        ffajlkjfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+                                    </div>
+                                </td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td><input class="selected" type="checkbox" /></td>
+                                <td>nv001</td>
+                                <td>Nguyễn Quang Hải</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td><input class="selected" type="checkbox" /></td>
+                                <td>nv001</td>
+                                <td>Bùi Tiến Dũng</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td><input class="selected" type="checkbox" /></td>
+                                <td>nv001</td>
+                                <td>Trần Đình Trọng</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Bùi Tấn Trường</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Mạc Hồng Quân/td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Lương Xuân Trường</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>bùi xuân lộc</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Nguyễn Phạm Hồng Duy</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Đoàn Văn Hậu</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Trần Thế Tùng</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Quế Ngọc Hải</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Nguyễn Tuấn Anh</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Nguyễn Công Vinh</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Nguyễn Văn Toàn</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Nguyễn Tiến Linh</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Đặng Văn Lâm</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Bùi Xuân Lộc</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Quế Ngọc Hải</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Nguyễn Tuấn Anh</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Nguyễn Công Vinh</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>nv001</td>
+                                <td>Nguyễn Văn Toàn</td>
+                                <td>nam</td>
+                                <td>08/07/1999</td>
+                                <td>152275327</td>
+                                <td>giám đốc</td>
+                                <td>tổng công ty misa</td>
+                                <td>12613131654516</td>
+                                <td>agribank</td>
+                                <td>thái bình</td>
+                                <td>sửa</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="footer">
+                        <div class="record-number">
+                            Tổng số: <b>1000</b> bản ghi
+                        </div>
+                        <div class="pages">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dailog">
+            <div class="popup-black">
+            </div>
+            <div class="popup">
+                <div class="popup-header">
+                    <div class="popup-title">Thông tin nhân viên</div>
+                    <div class="popup-close">
+                        <div class="popup-icon-support"></div>
+                        <div class="popup-icon-close"></div>
+                    </div>
+                </div>
+                <div class="popup-content">
+                    <div class="popup-t">
+                        <div class="popup-l-t">
+                            <div class="popup-lr flex">
+                                <div class="textbox-code pad-6">
+                                    <div class="lable-code">Mã</div>
+                                    <div class="input-code">
+                                        <input type="text" class="text-box-default" style="width: 151px;">
+                                    </div>
+                                </div>
+                                <div class="textbox-employee-name">
+                                    <div class="lable-employee-name">Tên</div>
+                                    <div class="input-employee-name">
+                                        <input type="text" class="text-box-default" style="width: 235px;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popup-lr">
+                                <div class="row">
+                                    <div class="combobox-name">Đơn vị</div>
+                                    <div class="combobox">
+                                        <input id="slectField" type="text" name="">
+                                        <button class="btn-combobox"><div class="btn-icon"></div></button>
+                                        <div class="combobox-data">
+                                            <div id="item" class="combobox-item">item 1</div>
+                                            <div id="item" class="combobox-item">item 2</div>
+                                            <div id="item" class="combobox-item">item 3</div>
+                                            <div id="item" class="combobox-item">item 4</div>
+                                            <div id="item" class="combobox-item">item 5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popup-lr">
+                                <div class="lable-position">Chức danh</div>
+                                <div class="input-position">
+                                    <input type="text" class="text-box-default" style="width: 100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="popup-r-t">
+                            <div class="popup-rr flex">
+                                <div class="textbox-dob pad-6">
+                                    <div class="lable-dob">Ngày sinh</div>
+                                    <div class="input-dob">
+                                        <input type="date" class="text-box-default width-textbox-code">
+                                    </div>
+                                </div>
+                                <div class="textbox-gender">
+                                    <div class="lable-position">Giới tính</div>
+                                    <div class="radio-gender">
+                                        <input type="radio" id="nam" name="gender" value="nam">   <label for="nam">Nam</label><br>
+                                        <input type="radio" id="nu" name="gender" value="nu">   <label for="nu">Nữ</label><br>
+                                        <input type="radio" id="khac" name="gender" value="khac">   <label for="khac">Khác</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="popup-rr flex">
+                                <div class="textbox-identityNumber pad-6">
+                                    <div class="lable-identityNumber">Số CMND</div>
+                                    <div class="input-identityNumber">
+                                        <input type="text" class="text-box-default" style="width: 245px;">
+                                    </div>
+                                </div>
+                                <div class="textbox-identityDate">
+                                    <div class="lable-dob">Ngày cấp</div>
+                                    <div class="input-code">
+                                        <input type="date" class="text-box-default" style="width: 167px;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="popup-rr">
+                                <div class="textbox-identityPlace">
+                                    <div class="lable-identityPlace">Nơi cấp</div>
+                                    <div class="input-identityPlace">
+                                        <input type="text" class="text-box-default" style="width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-b">
+                        <div class="popup-br">
+                            <div class="textbox-address">
+                                <div class="lable-address">Địa chỉ</div>
+                                <div class="input-address">
+                                    <input type="text" class="text-box-default" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="popup-br flex">
+                            <div class="textbox-address pad-6">
+                                <div class="lable-address">ĐT di dộng</div>
+                                <div class="input-address">
+                                    <input type="text" class="text-box-default" style="width: 100%;">
+                                </div>
+                            </div>
+
+                            <div class="textbox-address pad-6">
+                                <div class="lable-address">ĐT cố định</div>
+                                <div class="input-address">
+                                    <input type="text" class="text-box-default" style="width: 100%;">
+                                </div>
+                            </div>
+
+                            <div class="textbox-address">
+                                <div class="lable-address">Email</div>
+                                <div class="input-address">
+                                    <input type="text" class="text-box-default" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="popup-br flex">
+                            <div class="textbox-address pad-6">
+                                <div class="lable-address">Tài khoản ngân hàng</div>
+                                <div class="input-address">
+                                    <input type="text" class="text-box-default" style="width: 100%;">
+                                </div>
+                            </div>
+
+                            <div class="textbox-address pad-6">
+                                <div class="lable-address">Tên ngân hàng</div>
+                                <div class="input-address">
+                                    <input type="text" class="text-box-default" style="width: 100%;">
+                                </div>
+                            </div>
+
+                            <div class="textbox-address">
+                                <div class="lable-address">Chi nhánh</div>
+                                <div class="input-address">
+                                    <input type="text" class="text-box-default" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popup-footer">
+                    <div class="divide"></div>
+                    <div class="btn">
+                        <div class="footer-left">
+                            <div class="btn-cancel">Hủy</div>
+                        </div>
+                        <div class="footer-rigth">
+                            <div class="btn-save">Cất</div>
+                            <div class="button btn-save-add">Cất và Thêm</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../js/base/combobox.js"></script>
+</body>
+
+</html>
