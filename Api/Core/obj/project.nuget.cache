@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AFhOZrv2AYAbxjn5YEiJb5nix0QMlRPmNx7f6VVAxn7aQf68P8DALHE+R7NDgRqqQmm0hUjcjXq+yaLn4Vvjdg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Web07.Ptit.Bxloc.Api\\Web07.Ptit.Core\\MISA.Web07.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

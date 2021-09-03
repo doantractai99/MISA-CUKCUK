@@ -1,0 +1,73 @@
+.popup .report {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.report-black {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.2;
+    z-index: 10;
+}
+
+.toast-message {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    width: 444px;
+    height: 183px;
+    padding: 32px;
+    box-sizing: border-box;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.toast-content {
+    height: 62px;
+    width: 100%;
+    display: flex;
+}
+
+.icon-message {
+    width: 48px;
+    height: 48px;
+    background-color: #bbb;
+}
+
+.message-content {
+    padding: 12px 0 0 16px;
+    margin-bottom: 32px;
+}
+
+.mess-line {
+    width: 100%;
+    height: 1px;
+    background-color: #bbb;
+    margin-bottom: 20px;
+}
+
+.footer-icon {
+    width: 100%;
+    height: 36px;
+    text-align: center;
+}
+
+.icon-warring {
+    width: 48px;
+    height: 48px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") -24px -954px;
+}
+
+.icon-error {
+    width: 48px;
+    height: 48px;
+    background: url("../../assets/img/Sprites.64af8f61.svg") -592px -456px;
+}

@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\Web07.Ptit.Bxloc.Api\Web07.Ptit.Core\bin\Debug\netcoreapp3.1\MISA.Web07.Core.deps.json
+C:\Users\Admin\source\repos\Web07.Ptit.Bxloc.Api\Web07.Ptit.Core\bin\Debug\netcoreapp3.1\MISA.Web07.Core.dll
+C:\Users\Admin\source\repos\Web07.Ptit.Bxloc.Api\Web07.Ptit.Core\bin\Debug\netcoreapp3.1\MISA.Web07.Core.pdb
+C:\Users\Admin\source\repos\Web07.Ptit.Bxloc.Api\Web07.Ptit.Core\obj\Debug\netcoreapp3.1\MISA.Web07.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Web07.Ptit.Bxloc.Api\Web07.Ptit.Core\obj\Debug\netcoreapp3.1\MISA.Web07.Core.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Web07.Ptit.Bxloc.Api\Web07.Ptit.Core\obj\Debug\netcoreapp3.1\MISA.Web07.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Web07.Ptit.Bxloc.Api\Web07.Ptit.Core\obj\Debug\netcoreapp3.1\MISA.Web07.Core.dll
+C:\Users\Admin\source\repos\Web07.Ptit.Bxloc.Api\Web07.Ptit.Core\obj\Debug\netcoreapp3.1\MISA.Web07.Core.pdb
+C:\Users\Admin\source\repos\Web07.Ptit.Bxloc.Api\Web07.Ptit.Core\obj\Debug\netcoreapp3.1\MISA.Web07.Core.csproj.AssemblyReference.cache

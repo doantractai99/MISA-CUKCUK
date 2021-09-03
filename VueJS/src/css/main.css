@@ -1,0 +1,44 @@
+@import url("../css/base/button.css");
+@import url("../css/base/icon.css");
+@import url("../css/base/combobox.css");
+@import url("../css/base/table.css");
+@import url("../css/base/width.css");
+@import url("../css/base/text-box.css");
+@import url("../css/base/popup.css");
+@import url("../css/base/message.css");
+@import url("./layout/header.css");
+@import url("./layout/menu.css");
+@import url("./layout/content.css");
+@import url("../css/common/common.css");
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+@font-face {
+    font-family: MISANotoSans-Bold;
+    src: url("../assets/font/notosans-bold.3ede5aff.woff2");
+}
+
+@font-face {
+    font-family: MISANotoSans-Italic;
+    src: url("../assets/font/notosans-italic.1c1aaac9.woff2");
+}
+
+@font-face {
+    font-family: MISANotoSans;
+    src: url("../assets/font/notosans-regular.2cb88a13.woff2");
+}
+
+@font-face {
+    font-family: MISANotoSans-Semiblod;
+    src: url("../assets/font/notosans-semibold.df3e6dc4.woff2");
+}
+
+body {
+    position: relative;
+    font-family: MISANotoSans;
+    font-size: 13px;
+}
